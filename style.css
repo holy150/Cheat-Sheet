@@ -1,0 +1,122 @@
+/*--Universal Values--*/
+* {
+    font-family:'Courier New', Courier, monospace
+}
+
+body {
+    min-height: 100vh;
+}
+
+/*Links Style */
+a:hover {
+    color: rgb(19, 98, 210);
+    background-color: rgba(136, 136, 136, 0.264);
+    border-radius: 5px;
+}
+
+a:link {
+    color: rgb(4, 103, 241);
+}
+
+a:visited {
+    color: rgba(47, 128, 228, 0.819);
+}
+
+/*--Main Header Section--*/
+.main-header {
+    background-color: rgb(78, 89, 140);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 10px;
+}
+
+p#author {
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    font-style: italic;
+}
+
+.description {
+    text-align: center;
+    position: relative;
+    font-size: larger;
+}
+
+strong {
+    color: rgb(255, 183, 0);
+}
+
+/*--Html box--*/
+.html-heading {
+    text-align: center;
+    background-color: rgb(78, 89, 140);
+    color: white;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.box-html {
+    width: 50%;
+    float: left;
+  }
+/*--Html/CSS table--*/
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th {
+    background-color: rgb(78, 89, 140);
+    color: rgb(255, 255, 255);
+
+}
+
+tbody td {
+    border: 1px solid black;
+}
+
+td.r-description {
+  background-color: rgba(216, 184, 139, 0.516);
+  position: relative;
+  left: 1px;
+  min-height: 100px;
+}
+
+.resources {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.resources.odd {
+    background-color: rgb(252, 175, 88);
+}
+
+.resources.pair {
+    background-color: rgb(249, 199, 132);
+}
+
+
+/*--CSS Box--*/
+.css-heading {
+    text-align: center;
+    background-color: rgba(58, 145, 237, 0.79);
+    border-radius: 5px;
+    margin:  20px;
+}
+
+.box-css {
+    background-color: rgb(255, 255, 255);
+    width: 49%;
+    float: right;
+}
